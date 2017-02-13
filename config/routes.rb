@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :messages
 	root to: 'pages#index'
 	get 'contactUS'=> 'pages#contactUS'
 	get 'aboutUS' => 'pages#aboutUS'
